@@ -33,6 +33,6 @@ jobs:
         python console/chaoxing.py
     - name: login
       run: |
-        18237580417
-        whw04414
+        echo "7"
+        
         
