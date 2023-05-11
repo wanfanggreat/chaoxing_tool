@@ -1063,7 +1063,7 @@ class Menu():
     def run(self):
         while True:
             self.display_menu()
-            choice = input("\n请输入您要进行的操作：")
+            choice = 3
             choice = str(choice).strip()
             action = self.choices.get(choice)
             if action:
@@ -1089,7 +1089,6 @@ def before_start() -> None:
     print("6.其中快速完成可能会导致异常，而常规完成则会同步视频时长完成（需要保证软件保持开启状态）用于避免可能由时长带来的异常")
     print("7.如果您在使用中有疑问或者遇到了BUG，请前往提交Issue: https://github.com/liuyunfz/chaoxing_tool/issues")
 
-    input("\n回车确认后正式使用本软件:")
 
 
 if __name__ == "__main__":
