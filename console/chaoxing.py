@@ -68,7 +68,7 @@ def step_1():
 请选择您的登录方式：""")
     '''
     sign_mode = 1
-    while sign_mode not in ["1", "2", ""]:
+    while sign_mode not in [1, "2", ""]:
         print("\n请输入正确的序号，如果您不清楚怎么选，请默认选择1")
         sign_mode =1
         '''
@@ -81,9 +81,9 @@ def step_1():
         while sign_sus == False:
             os.system("cls")
             #uname = input("请输入您的手机号:")
-            uname = 18237580417
+            uname = "18237580417"
             import getpass
-            password = whw044414
+            password = "whw044414"
             #password = getpass.getpass("请输入您的密码(已自动隐藏,请放心输入):")
             sign_in_rsp = sign_in(uname, password)
             sign_in_json = sign_in_rsp.json()
