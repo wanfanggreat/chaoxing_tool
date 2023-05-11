@@ -850,7 +850,8 @@ class Things():
         for i in range(len(course_dict)):
             print("%d.%s" % (i + 1, course_dict[i + 1][0]))
         while True:
-            enter = input("输入你要完成的课程序号(输入q回退主菜单)：")
+            #enter = input("输入你要完成的课程序号(输入q回退主菜单)：")
+            enter = "7"
             try:
                 if enter == "q":
                     break
