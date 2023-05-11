@@ -62,9 +62,11 @@ def sign_in(uname: str, password: str):
 # 任务1：用户登录，并合并cookie
 def step_1():
     sign_sus = False
-    #sign_mode = input("""1.使用用户名（手机号）与密码进行登录
+    '''
+    sign_mode = input("""1.使用用户名（手机号）与密码进行登录
 2.使用Cookie进行登录
 请选择您的登录方式：""")
+    '''
     sign_mode = 1
     while sign_mode not in ["1", "2", ""]:
         print("\n请输入正确的序号，如果您不清楚怎么选，请默认选择1")
