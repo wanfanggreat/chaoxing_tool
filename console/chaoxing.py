@@ -70,9 +70,11 @@ def step_1():
     sign_mode = 1
     while sign_mode not in ["1", "2", ""]:
         print("\n请输入正确的序号，如果您不清楚怎么选，请默认选择1")
+        '''
         sign_mode = input("""1.使用用户名（手机号）与密码进行登录
 2.使用Cookie进行登录
 请选择您的登录方式：""")
+        '''
     global cookieStr, uid, global_headers
     if sign_mode == "1" or sign_mode == "":
         while sign_sus == False:
